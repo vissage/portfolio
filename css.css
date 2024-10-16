@@ -1,0 +1,80 @@
+
+body{
+    background: linear-gradient(to bottom, #C4E1F6, #FEEE91, #FFBD73, #FF9D3D);
+}
+.navegador{
+     color: #c26100;
+     display: inline-block;
+     background-color: #C4E1F6;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     font-size: 18px;
+}
+.navegador:hover{
+    background-color: #769bb6;
+}
+button{
+    background-color: #3A6D8C;
+    color: #6A9AB0;
+}
+button:hover{
+    background-color: #6A9AB0;
+    color: #3A6D8C;
+}
+button:active{
+    background-color: #EAD8B1;
+    color: #d19c28;
+ }
+nav{
+    background-color: #C4E1F6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+ }
+.navbutton{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgb(0, 136, 255);
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+ }
+ @media (max-width: 600px) {
+    nav {
+        background-color: #001122;
+        flex-direction: column;
+    }
+    .navegador{
+        margin: 10px 0px;
+    }
+    .navbutton{
+        display: inline-block;
+    }
+    .none{
+        display: none;
+    }
+}
+.temas{
+    text-align: center;    
+    margin: 90px;
+}
+video{
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 10px #db8630;
+    background: linear-gradient(to bottom, #FF9D3D, #FFBD73, #FEEE91, #C4E1F6 );
+}
+h1{
+    background: -webkit-linear-gradient( #FF9D3D, #fac384); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px; font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    background: -webkit-linear-gradient( #ffcd93,#FF9D3D ); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px; font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+}

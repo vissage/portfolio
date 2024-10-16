@@ -1,4 +1,7 @@
 
+*{
+    cursor: auto;
+}
 body{
     background: linear-gradient(to bottom, #C4E1F6, #FEEE91, #FFBD73, #FF9D3D);
 }
@@ -49,7 +52,7 @@ nav{
         flex-direction: column;
     }
     .navegador{
-        margin: 10px 0px;
+        margin: 0px 0px;
     }
     .navbutton{
         display: inline-block;
@@ -57,10 +60,18 @@ nav{
     .none{
         display: none;
     }
+    video{
+        padding: 0px;
+        text-align: left;
+        margin: 0px;
+    }
+    nav{
+        text-align: center;
+    }
 }
 .temas{
-    text-align: center;    
-    margin: 90px;
+    text-align: center;  
+    margin: 0px;
 }
 video{
     padding: 20px;
